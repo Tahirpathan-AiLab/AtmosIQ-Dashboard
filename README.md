@@ -1,121 +1,114 @@
-# Code Description
+# Weather Dashboard
 
-This project is a **modern, responsive multi-page corporate website** inspired by the Amul brand. It demonstrates how to build a professional business website using **HTML5, CSS3, and JavaScript**, while integrating modern frontend features such as responsive layouts, interactive components, third-party services, and clean UI/UX design.
-
-### Overview
-
-The project starts with a fully responsive navigation system that allows users to seamlessly browse different sections of the website, including **Home, About, Services, Products, and Contact**.
-
-The homepage introduces the company through visually engaging sections that highlight its brand identity, dairy products, company values, and customer-focused services. Carefully designed layouts and responsive components ensure an excellent browsing experience across desktop, tablet, and mobile devices.
-
-The **Services** page presents Amul's core business offerings, including milk collection, dairy distribution, farmer support, and retail services through modern card-based layouts and informative content sections.
-
-The **Contact** page provides an interactive contact form integrated with **EmailJS**, enabling visitors to submit inquiries directly from the website without requiring a backend server. It also features **city autocomplete suggestions** for faster location selection and an embedded **Google Maps** section that allows users to locate the company headquarters easily.
-
-The project also includes animated logo sliders, reusable UI components, responsive sections, professional footer layouts, and organized project architecture, making it scalable, maintainable, and suitable for real-world frontend development.
+A modern Weather Dashboard built using HTML, CSS, JavaScript, Open-Meteo API, OpenStreetMap API, GNews API, and Chart.js. It provides real-time weather updates, 7-day forecasts, weather news, location search, temperature conversion, and interactive weather analytics through a responsive dashboard.
 
 ---
 
-# Key Features
+## Code Description
 
-* Responsive Multi-Page Website
-* Modern Corporate User Interface
-* Responsive Navigation Menu
-* Company Information Sections
-* Product Showcase
-* Services Showcase
-* Interactive Contact Form
-* EmailJS Integration
-* Google Maps Integration
-* City Autocomplete Search
-* Animated Logo Slider
-* Mobile-Friendly Design
-* Reusable Components
-* Clean Code Structure
-* Cross-Browser Compatibility
-* Optimized User Experience
+This project is designed to build a responsive Weather Dashboard that combines multiple APIs to deliver real-time weather information and weather-related news.
+
+The application allows users to search any location with smart autocomplete using the OpenStreetMap API. Once a location is selected, it retrieves current weather conditions and a 7-day forecast from the Open-Meteo API. The dashboard also displays humidity, visibility, wind speed, sunrise, sunset, and feels-like temperature.
+
+Additionally, users can switch between Celsius and Fahrenheit, view a weekly average temperature chart, and read the latest weather news using the GNews API. The interface automatically changes between day and night themes, creating a modern and interactive user experience.
 
 ---
 
-# My Workflow
+## Key Features
+
+- Real-Time Weather Information
+- 7-Day Weather Forecast
+- Smart Location Search
+- Dynamic Autocomplete
+- Celsius & Fahrenheit Conversion
+- Sunrise & Sunset Details
+- Wind Speed & Direction
+- Humidity Monitoring
+- Visibility Information
+- Feels Like Temperature
+- Weekly Temperature Chart
+- Live Weather News
+- Dynamic Day & Night Background
+- Responsive Dashboard Design
+
+---
+
+## My Workflow
 
 <p align="center">
-  <img src="https://img.shields.io/badge/1-Plan%20Website%20Structure-4CAF50?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/1-Load%20Dashboard-4CAF50?style=for-the-badge"/>
 </p>
 
 <p align="center">⬇️</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/2-Develop%20Responsive%20Layouts-2196F3?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/2-Search%20Location-2196F3?style=for-the-badge"/>
 </p>
 
 <p align="center">⬇️</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/3-Build%20Multi%20Page%20Navigation-FF9800?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/3-Fetch%20Weather%20Data-FF9800?style=for-the-badge"/>
 </p>
 
 <p align="center">⬇️</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/4-Design%20Business%20Sections-E91E63?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/4-Display%20Weather-E91E63?style=for-the-badge"/>
 </p>
 
 <p align="center">⬇️</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/5-Create%20Service%20Pages-9C27B0?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/5-Generate%20Forecast-9C27B0?style=for-the-badge"/>
 </p>
 
 <p align="center">⬇️</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/6-Integrate%20EmailJS%20Contact%20Form-00BCD4?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/6-Update%20Charts%20%26%20Highlights-00BCD4?style=for-the-badge"/>
 </p>
 
 <p align="center">⬇️</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/7-Add%20Google%20Maps%20%26%20Autocomplete-795548?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/7-Load%20Weather%20News-795548?style=for-the-badge"/>
 </p>
 
 <p align="center">⬇️</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/8-Optimize%20Responsive%20User%20Experience-4CAF50?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/8-Responsive%20Dashboard-4CAF50?style=for-the-badge"/>
 </p>
 
 ---
 
-# Technologies I Used
+## Technologies I Used
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,vscode,git,github" alt="Tech Stack"/>
+  <img src="https://skillicons.dev/icons?i=html,css,javascript,vscode,git,github" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/EmailJS-FF6B35?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Google%20Maps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Responsive%20Design-00C853?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Font%20Awesome-528DD7?style=for-the-badge&logo=fontawesome&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Open--Meteo%20API-0099FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/OpenStreetMap%20API-7CB342?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/GNews%20API-E53935?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Bootstrap%20Icons-7952B3?style=for-the-badge"/>
 </p>
 
 ---
 
-# Output
+## Output
 
-After successful execution, the project provides:
+After successful execution, the application provides:
 
-* Responsive Corporate Website
-* Multi-Page Navigation System
-* Professional Product Showcase
-* Company Information Pages
-* Service Presentation Sections
-* EmailJS Contact Form
-* Google Maps Location Support
-* City Autocomplete Feature
-* Animated Logo Slider
-* Responsive User Interface
-* Professional Footer Design
+- Real-Time Weather Data
+- 7-Day Weather Forecast
+- Weather Highlights
+- Temperature Charts
+- Weather News
+- Dynamic Backgrounds
+- Responsive User Interface
 
-This project demonstrates a practical implementation of modern frontend web development by combining responsive web design, interactive JavaScript functionality, reusable UI components, and third-party integrations to create a professional corporate business website suitable for portfolios, learning, and business showcase applications.
+This project demonstrates a complete weather dashboard that integrates multiple APIs, data visualization, and modern frontend development into a responsive web application.
