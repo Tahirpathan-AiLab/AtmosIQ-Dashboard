@@ -1,9 +1,3 @@
-# Weather Dashboard
-
-A modern Weather Dashboard built using HTML, CSS, JavaScript, Open-Meteo API, OpenStreetMap API, GNews API, and Chart.js. It provides real-time weather updates, 7-day forecasts, weather news, location search, temperature conversion, and interactive weather analytics through a responsive dashboard.
-
----
-
 ## Code Description
 
 This project is designed to build a responsive Weather Dashboard that combines multiple APIs to deliver real-time weather information and weather-related news.
